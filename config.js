@@ -9,7 +9,7 @@ module.exports = {
     }
   },
   mongoDB: {
-    dbConnString: 'mongodb://127.0.0.1:27017/codasession',
+    dbConnString: 'mongodb://codeuser:code123@ds217310.mlab.com:17310/codasession',
     sessionKey: 'CodaSessionYolomatic'
   },
   facebook: {
