@@ -61,7 +61,7 @@
   var SocketIOAdapter = ot.SocketIOAdapter;
   var CodeMirrorAdapter = ot.CodeMirrorAdapter;
 
-  var socket = io.connect('http://localhost:3000');
+  var socket = io.connect();
   var codeEditor = CodeMirror.fromTextArea(document.getElementById('codeeditor'), {
     lineNumbers: true,
     theme: 'rubyblue'
@@ -124,7 +124,7 @@
     //path: '/peerjs',
     //port: 443,
     //secure: true,
-    key: 'hceptospahlac3di'//,
+    key: 'hceptospahlac3di'
     //debug: true
   });
 
